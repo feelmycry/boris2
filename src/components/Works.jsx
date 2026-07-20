@@ -103,8 +103,7 @@ export default function Works() {
           {videos.map(v => (
             <motion.div className="vid-wrap" key={v.src} variants={itemVariant}>
               <video controls preload="metadata" aria-label={v.label}>
-                <source src={v.src} type="video/mp4" />
-                <source src={v.src} type="video/quicktime" />
+                <source src={v.src} />
               </video>
               <div className="vid-caption">
                 <PlayIcon />
