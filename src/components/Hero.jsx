@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import CarIllustration from './CarIllustration'
 
 const ease = [0.22, 1, 0.36, 1]
 
@@ -24,6 +25,8 @@ export default function Hero() {
           <span className="hero-title-script">Private</span>
           <span className="hero-title-serif">Auto Brokerage</span>
         </motion.div>
+
+        <CarIllustration />
 
         <motion.div
           className="hero-ctas"

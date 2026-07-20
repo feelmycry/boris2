@@ -304,6 +304,12 @@ a { text-decoration: none; color: inherit; }
   color: var(--color-navy);
 }
 
+.car-illustration {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto var(--sp-43);
+}
+
 .hero-ctas {
   display: flex;
   align-items: center;
