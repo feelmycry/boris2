@@ -28,10 +28,13 @@ export default function CarIllustration() {
     >
       <motion.svg
         viewBox="0 0 500 185"
+        width="100%"
+        height="auto"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-label="Автомобиль Private Auto Brokerage"
+        style={{ display: 'block' }}
         animate={{ y: [0, -10, 0] }}
         transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut' }}
       >
@@ -39,7 +42,8 @@ export default function CarIllustration() {
         <motion.ellipse
           cx="252" cy="178" rx="185" ry="7"
           fill="#111856"
-          animate={{ opacity: [0.1, 0.045, 0.1], rx: [185, 155, 185] }}
+          animate={{ opacity: [0.1, 0.04, 0.1], scaleX: [1, 0.82, 1] }}
+          style={{ transformOrigin: '252px 178px' }}
           transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut' }}
         />
 
