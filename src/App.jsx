@@ -1,3 +1,12 @@
+import Navbar from './components/Navbar'
+
 export default function App() {
-  return <div style={{ padding: '2rem', fontFamily: 'Inter, sans-serif' }}>boris2 scaffold ✓</div>
+  return (
+    <>
+      <Navbar />
+      <main>
+        {/* sections added in subsequent tasks */}
+      </main>
+    </>
+  )
 }
